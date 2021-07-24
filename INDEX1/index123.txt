@@ -1,0 +1,133 @@
+<html>
+<head>
+</head>
+<body>
+<h1>Html Tables</h1>
+
+
+
+ <table border="5" cellspacing="5" cellspadding="10">
+    <thead>
+        <tr>
+            <th>Days/Periods</th>
+            <th>1</th>
+            <th>2</th>
+            <th></th>
+            <th>3</th>
+            <th>4</th>
+            <th>5</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td>Mon</td>
+              <td>Science</td>
+              <td>Maths</td>
+              <td rowspan="6">Holiday</td>
+              <td colspan="2"><center>Games</td>
+              <td>SST</td>
+         </tr>
+         <tr>
+              <td>Tue</td>
+              <td>Hindi</td>
+              <td>English</td>
+              <td>Science</td>
+              <td>Games</td>
+              <td>Computer</td>
+        </tr>
+        <tr>
+              <td>Wed</td>
+              <td>Moral Science</td>
+              <td rowspan="2">Sanskrit</td>
+              <td>Math</td>
+              <td>Hindi</td>
+              <td>Punjabi</td>
+        </tr>
+        <tr>
+              <td>Thu</td>
+              <td>Games</td>
+              <td>Half Day</td>
+              <td rowspan="2">Half Day</td>
+              <td rowspan="3">Break</td>
+        </tr>
+        <tr>
+              <td>Fri</td>
+              <td>Math</td>
+              <td>Science</td>
+              <td>English</td>
+        </tr>
+        <tr>
+              <td>Sat</td>
+              <td>Games</td>
+              <td>SST</td>
+              <td>Science</td>
+              <td>Math</td>
+        </tr>
+        <tr>
+               <td colspan="7"><center>Time Table for class 5</td>
+        </tr>
+<h2>School Time Table for class 5</h2>
+
+    </tbody>
+      <tfoot></tfoot>
+  </table>
+<br>
+
+<h1>My Bio Data</h1>
+<fieldset>
+<legend>Personal information</legend>
+<form>
+  
+
+    <label for="firstname">First Name</label>
+    <input type="text" id="firstname" placeholders="First Name"
+    <br>
+    <br>
+    <label for="lastname">Last Name</label>
+    <input type="text" id="lastname" placeholders="Last Name"
+    <br>
+    <br>
+    <label for="male">Male</label>
+    <input type="radio" id="male">
+    <label for="female">Female</label>
+    <input type="radio" id="female">
+    <label for="others">Others</label>
+    <input type="radio" id="others">
+    <br>
+    <br>
+    <span>Email</span>
+    <input type="email" placeholder="Enter your Email">
+    <br>
+    <br>
+    <span>Height</span>
+    <input type="height" placeholder="Height in Feet">
+    <br>
+    <br>
+    <span>Phone no</span>
+    <input type="phone no" placeholder="+91">
+   
+</fieldset>
+<fieldset>
+  <legend>Education Info</legend>
+
+  <label for="marksheet">Marksheet</label>
+  <input type="file" id="marksheet">
+
+    <br>
+    <br>
+   <label for="biodata">Biodata</label>
+    <br>
+   <textarea name="biodata" id="biodata" cols="30" rows="5"></textarea>
+    <br>
+    <br>
+</fieldset>
+
+    <button type="submit" value="submit"><a href="jai1.HTML">SUBMIT</a></button>
+
+<br>
+
+
+
+
+</body>
+</html>
